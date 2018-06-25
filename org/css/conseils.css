@@ -1,0 +1,168 @@
+
+@font-face { 
+  font-family: Yanone Kaffeesatz; 
+    src: url('../fonts/YanoneKaffeesatz-Regular.eot'); 
+    src: local("Yanone Kaffeesatz"), url('../fonts/YanoneKaffeesatz-Regular.ttf'); 
+} 
+
+@font-face { 
+  font-family: News Cycle; 
+    src: url('../fonts/NewsCycle-Regular.eot'); 
+    src: local("News Cycle"), url('../fonts/NewsCycle-Regular.ttf'); 
+} 
+
+html { 
+  height: 100%;
+}
+
+body {
+  font: normal 1em arial, sans-serif;
+  background: #222;
+  color: #C0C0C0;
+  text-align:justify;
+  margin: 20pt 50pt 20pt 50pt; 
+}
+
+header {
+	text-align: center;
+}
+
+header .logo { 
+	height: 6em;
+	margin: 1ex;
+}
+
+/* Le titre */
+.title {
+    text-align:center;
+    font-size: 200%;
+    font-family: "News Cycle";
+    color:  #FFF;
+    font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+  color: #FFF;
+  letter-spacing: 0em;
+  padding: 0 0 5px 0;
+}
+
+h1, h2, h3 { 
+  font: normal 140% arial, sans-serif;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;
+  color: #FFF;
+}
+
+
+a, a:hover { 
+  outline: none;
+  text-decoration: underline;
+  color: #09D4FF;
+}
+
+
+a, a:hover { 
+  outline: none;
+  text-decoration: underline;
+  color: #F67400;
+}
+
+
+blockquote { 
+  margin: 20px 0; 
+  padding: 10px 20px 0 20px;
+  border: 1px solid #E5E5DB;
+  background: #FFF;
+}
+
+
+ul { 
+  margin: 2px 0 5px 7px;
+}
+
+ul li { 
+  list-style-type: circle;
+/*  margin: 0 0 6px 0; */
+  padding: 0 0 4px 5px;
+  line-height: 1.2em;
+}
+
+ol { 
+  margin: 8px 0 22px 20px;
+}
+
+ol li { 
+  margin: 0 0 11px 0;
+}
+
+/* les trucs en bas (auteur, date de génération, toussa toussa) */
+p.author {
+    font-style: italic;
+    text-indent: 1.2em;
+    color: gray;
+}
+p.date {
+    font-style: italic;
+    text-indent: 1.2em;
+    color: gray;
+}
+p.creator {
+    font-style: italic;
+    text-indent: 1.2em;
+    color: gray;
+}
+
+/* texte suivant la profondeur dans la table des matières */
+
+/* Tout le bloc, titre y compris */
+div.outline-2{
+  font: normal 100% arial, sans-serif;
+  margin: 0 0 15px 0;
+/*  padding: 5px 0 5px 0;*/
+  color: #FFF;
+}
+div.outline-3{
+  font: normal 100% arial, sans-serif;
+  margin: 0 0 15px 0;
+/*  padding: 5px 0 5px 0;*/
+  color: #FFF;
+}
+div.outline-4{
+  font: normal 100% arial, sans-serif;
+  margin: 0 0 15px 0;
+/*  padding: 5px 0 5px 0;*/
+  color: #FFF;    
+}
+
+/* juste le contenu du bloc, sans le titre */
+div.outline-text-2{
+  font: normal 100% arial, sans-serif;
+  color: #FFF;
+}
+div.outline-text-3{
+  font: normal 100% arial, sans-serif;
+  color: #FFF;
+}
+div.outline-text-4{
+  font: normal 100% arial, sans-serif;
+  color: #FFF;
+
+}
+
+/* Numéros de sections */
+
+ .section-number-2{
+    font-style: italic;
+
+ }
+ .section-number-3{
+    font-style: italic;
+
+ }
+ .section-number-4{
+    font-style: italic;
+
+ }
+
+

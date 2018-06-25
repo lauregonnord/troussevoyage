@@ -1,0 +1,55 @@
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/conseils.css" />
+#+HTML_HEAD_EXTRA: <style type="text/css">p.validation {display:none;} div#subtitle { text-align: center; font-size: 90%; font-style: italic; }</style>
+
+#+OPTIONS: toc:nil
+
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [a4paper]
+#+LATEX_HEADER: \usepackage{fullpage}
+#+LATEX_HEADER: \usepackage[french]{babel}
+
+#+begin_html
+<div id="subtitle">
+Laure Gonnord (Univ Lyon1), David Charlotte Truchet (Univ Nantes).
+</div>
+<a href="https://fr.wikipedia.org/wiki/Creative_Commons">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cc-by_new_white.svg/48px-Cc-by_new_white.svg.png" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Cc-nc_white.svg/48px-Cc-nc_white.svg.png"
+/>
+<img src="
+https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Cc-sa_white.svg/48px-Cc-sa_white.svg.png" />
+License: CC-BY-NC-SA
+</a>
+#+end_html
+
+#+TITLE: La trousse de voyage optimisée et optimisante
+#+begin_html
+#+end_html
+
+
+#+MACRO: LAURE Laure Gonnord (Univ Lyon1)
+#+MACRO: CHARLOTTE Charlotte Truchet (Univ Nantes)
+#+MACRO: LICENSEINFO  @@latex:\\ License: CC-BY-NC-SA@@ 
+
+#+MACRO: MYAUTHOR  {{{LAURE}}}, @@latex:\\@@  {{{CHARLOTTE}}} 
+
+#+AUTHOR: {{{MYAUTHOR}}}
+
+#+LANGUAGE: fr
+
+#+DESCRIPTION: Conseils pour la trousse de voyage ESR
+#+KEYWORDS:  ESR, mission, voyage
+
+#+TOC: headlines 2
+
+* TODO Au sujet de ce document
+
+Ce document a été rédigé en 2018 
+
+
+Ce document est disponible en HTML à l'adresse 
+
+
+* La trousse en cabine
+
+* La trousse en soute
